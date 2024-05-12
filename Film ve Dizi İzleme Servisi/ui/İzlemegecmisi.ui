@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>712</width>
+    <height>488</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>İzleme Geçmişi</string>
+  </property>
+  <widget class="QTableWidget" name="izlemegecmisi">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>711</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::NoContextMenu</enum>
+   </property>
+   <column>
+    <property name="text">
+     <string>İzleme Tarihi</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Film Adı</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Yönetmeni</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Film Türü</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Yapım Yılı</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Süresi</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Yapım Yeri</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
